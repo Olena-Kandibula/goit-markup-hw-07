@@ -1,0 +1,26 @@
+.logo {
+  display: inline-block;
+  color: var(--brend-accent-color);
+  font-family: var(--font-family-logo);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+
+  &__dark-text {
+    color: var(--black-color);
+  }
+
+  &__light-text {
+    color: var(--white-color);
+  }
+
+  .navigation & {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .footer & {
+    margin-bottom: 20px;
+  }
+}

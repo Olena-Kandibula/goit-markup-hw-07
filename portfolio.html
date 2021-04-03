@@ -16,16 +16,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <a class="logo link" href="./index.html">Web<span class="logo_dark">Studio</span></a>
+          <a class="logo link" href="./index.html">Web<span class="logo__dark-text">Studio</span></a>
     
-          <ul class="menu__list list">
+          <ul class="menu list">
             <li class="menu__item">
               <a class="menu__link link" href="./index.html">Студия</a>
             </li>
@@ -40,19 +40,19 @@
           </ul>
         </nav>
     
-        <ul class="contact-list list">
-          <li class="contact-list__item">
-            <a class="contact-list__link link" href="mailto:info@devstudio.com" lang="en">
-              <svg class="contact-list__icon" width="16" height="12">
+        <ul class="contact list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:info@devstudio.com" lang="en">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
     
-          <li class="contact-list__item">
-            <a class="contact-list__link link" href="tel:+380961111111">
-              <svg class="contact-list__icon" width="10" height="16">
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+380961111111">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a>
@@ -100,12 +100,13 @@
           <h2 class="visually-hidden">Наши Проекты</h2>
           <!--будет невидимый-->
 
-          <ul class="projects-list list">
+          <ul class="projects list">
 
             <li class="projects__item">
+
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio1.jpg"
                       alt="экран ноутбука"
@@ -132,7 +133,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio2.jpg"
                       alt="два баскетболиста"
@@ -160,7 +161,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio3.jpg"
                       alt="логотип ресторана"
@@ -188,7 +189,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio4.jpg"
                       alt="наушники"
@@ -216,7 +217,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio5.jpg"
                       alt="две коробки"
@@ -244,7 +245,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio6.jpg"
                       alt="изображение на мониторе компьютера"
@@ -272,7 +273,7 @@
           <li class="projects__item">
             <a class="card link" href="">
               <div class="card__wrapper">
-                <div class="card__overlay">
+                <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio7.jpg"
                       alt="разворот модного журнала"
@@ -300,7 +301,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio8.jpg"
                       alt="этикетка"
@@ -327,7 +328,7 @@
             <li class="projects__item">
               <a class="card link" href="">
                 <div class="card__wrapper">
-                  <div class="card__overlay">
+                  <div class="overlay">
                     <img
                       src="./images/portfolio/portfolio9.jpg"
                       alt="ноутбук"
@@ -357,28 +358,28 @@
       <div class="container">
     
         <div class="footer__address">
-          <a class="logo link" href="./index.html">Web<span class="logo_light">Studio</span></a>
+          <a class="logo link" href="./index.html">Web<span class="logo__light-text">Studio</span></a>
           <address>
-            <ul class="address-list list">
-              <li class="address-list__item">
-                <a class="address-list__link link" href="https://goo.gl/maps/Ces3QGSAe3TYxzQn6" rel="noopener noreferrer">г.
+            <ul class="address__list list">
+              <li class="address__item">
+                <a class="address__link link" href="https://goo.gl/maps/Ces3QGSAe3TYxzQn6" rel="noopener noreferrer">г.
                   Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
     
-              <li class="address-list__item">
-                <a class="address-list__link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+              <li class="address__item">
+                <a class="address__link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
               </li>
     
-              <li class="address-list__item">
-                <a class="address-list__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="address__item">
+                <a class="address__link link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
     
         <div class="footer__sociall">
-          <b class="sociall__call">присоединяйтесь</b>
+          <b class="footer__call">присоединяйтесь</b>
           <ul class="sociall-list list">
             <li class="sociall-list__item">
               <a href="" class="sociall-list__link link">
@@ -415,20 +416,20 @@
         </div>
     
         <div class="footer__sub">
-          <b class="sub__call">Подпишитесь на рассылку</b>
+          <b class="footer__call">Подпишитесь на рассылку</b>
+    
           <form action="#" class="sub-form">
-    
             <input id="sub-e-mail" type="email" name="sub-e-mail" class="sub-form__input" placeholder="E-mail"
-              autocomplete="off">
+              autocomplete="off" />
     
-            <button type="submit" class="modal-button sub-form__modal-button button ">Подписаться
+            <button type="submit" class="modal-button sub-form__modal-button button">
+              Подписаться
               <svg class="sub-form__btn-icon" width="24" height="24">
                 <use href="./images/sprite.svg#send"></use>
               </svg>
             </button>
           </form>
         </div>
-    
       </div>
     </footer>
   </body>
